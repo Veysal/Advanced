@@ -3,10 +3,13 @@ import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
-import adminPages from './modules/adminPages';
+import adminPages from './modules/adminPages'
+import skills from './modules/skills'
+import works from "./modules/works";
+
 
 export  const store = new Vuex.Store({
   modules: {
-    adminPages
+    adminPages, skills, works
   }
 });

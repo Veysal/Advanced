@@ -1,4 +1,4 @@
-/*eslint-disable*/
+
 (function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     zoom: 14,
@@ -197,4 +197,3 @@
     fullscreenControl: false,
   });
 })();
-/*eslint-disable*/
